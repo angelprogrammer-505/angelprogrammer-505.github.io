@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+</head>
+<body>
+    <style type = "text/css">
+.container{
+    margin: auto;
+    width: 96%;
+    max-width: 960px;
+    min-height: 1100px;
+    padding: 20px;
+    background:skyblue;
+}
+.img-left{
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 40%;
+    height: auto;
+    min-width: 250px;
+}
+@media(max-width: 480px){
+    .img-left{
+        width: auto;
+        max-width: 100%;
+        float: none;
+        margin: 10px auto;
+    }
+}
+    </style>
+    <section class = "box">
+        <div class = "container">
+            <h2>Одиночное адаптивное изображение</h2>
+            <p>Это изображение будет пропорционально изменять масштаб, так как его ширина составляет 100% от размера контейнера, для которого задана максимальная ширина 960px
+            </p>
+            <img class = "img-left" src="img for lection 5/vagabond.jpg" alt="vagabond">
+            <p class = "text-left">Бродяга</p>
+            <p class = "text-left">Vagabond — это художественно переосмысленная история о жизни одного из самых известных Японских мечников, «Святого Меча» Миямото Мусаси. История рассказывает о становлении великого воина, его пути к познанию дружбы, жизни, и самого себя.</p>
+        </div>
+        <div class = "container">
+            <h2>Второе изображение</h2>
+            <p>Это изображение будет пропорционально изменять масштаб, так как его ширина составляет 100% от размера контейнера, для которого задана максимальная ширина 960px</p>
+            <img class = "img-left" src="img for lection 5/sasukejpg.jpg" alt="sasuke">
+            <p class = "text-left">Саске Учиха</p>
+            <p class = "text-left">Саске Учиха (яп. うちはサスケ, Учиха Сасукэ) — один из последних выживших членов клана Учиха из Деревни Скрытого Листа. После того, как его старший брат Итачи вырезал весь их клан, Саске поставил перед собой жизненную цель отомстить за клан и семью, убив Итачи. </p>
+        </div>
+        <div class = "container">
+            <h2>Третье изображение</h2>
+            <p>Это изображение будет пропорционально изменять масштаб, так как его ширина составляет 100% от размера контейнера, для которого задана максимальная ширина 960px</p>
+            <img class = "img-left" src="img for lection 5/thorfinn.jpg" alt="thorfinn">
+            <p class = "text-left">Торфинн Карлсефни</p>
+            <p class = "text-left">Торфинн Карлсефни (トルフィン, Torufin) — Главный герой манги «Сага о Винланде». Сын одного из величайших воинов-викингов. В детстве он потерял своего отца во время схватки с дружиной викингов, возглавляемых Аскеладдом. Полный мести, Торфинн поклялся, что убьёт Аскеладда в честном бою. </p>
+        </div>
+    </section>
+</body>
+</html>
